@@ -1,0 +1,70 @@
+{
+	"devices": [
+		{
+			"deviceName": "",
+			"instance": "",
+			"instanceName": "",
+			"platform": "",
+			"oSVersion": "",
+			"model": "Default",
+			"gPU": "",
+			"cPUModel": "",
+			"rAMInGB": 64,
+			"renderMode": "SM5",
+			"rHI": "",
+			"appInstanceLog": ""
+		}
+	],
+	"reportCreatedOn": "2024.07.29-08.05.48",
+	"succeeded": 10,
+	"succeededWithWarnings": 0,
+	"failed": 0,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 9.5922698974609375,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "FT_Level_PlayerCanTakeDamage",
+			"fullTestPath": "Project.Functional Tests.Tests.FunctionalTests.TestsInLevel.FT_Level_PlayerCanTakeDamage",
+			"state": "Success",
+			"deviceInstance": [
+				""
+			],
+			"duration": 0.42549654841423035,
+			"dateTime": "0001.01.01-00.00.00",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "FT_PlayerHealthCantGoNegative",
+			"fullTestPath": "Project.Functional Tests.Tests.TestsInBP.FT_PlayerHealthCantGoNegative",
+			"state": "Success",
+			"deviceInstance": [
+				""
+			],
+			"duration": 0.41618537902832031,
+			"dateTime": "0001.01.01-00.00.00",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "FT_PlayerHealthCantGoNegative: Health matches expected value",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2024.07.29-15.05.43"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		}
+	]
+}
